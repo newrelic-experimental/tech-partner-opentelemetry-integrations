@@ -41,6 +41,10 @@ data:
               params:
                 "resource.kafka.id":
                   - {{ .Values.confluent.clusterId }}
+                "resource.schema_registry.id":
+                  - {{ .Values.confluent.schemaRegistryId }}
+                "resource.connectorId":
+                  - {{ .Values.confluent.connectorId }}
     exporters:
       otlp:
         endpoint: {{ .Values.newrelic.otlpEndpoint }}
