@@ -72,7 +72,7 @@ kubectl apply -f ./k8s
 ## Local Variable information
 
 | Docker/K8s Variable | Helm Variable| Description | Docs |
-| -------- | ----------- | ---- |
+| -------- | ----------- | ---- | ----- |
 | **NEW_RELIC_API_KEY** | **newrelic.apiKey** |New Relic Ingest API Key |[API Key docs](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/) |
 | **NEW_RELIC_OTLP_ENDPOINT** | **newrelic.otlpEndpoint** |Default US OTLP endpoint is <https://otlp.nr-data.net> | [OTLP endpoint config docs](https://docs.newrelic.com/docs/more-integrations/open-source-telemetry-integrations/opentelemetry/get-started/opentelemetry-set-up-your-app/#review-settings) |
 | **CONFLUENT_API_KEY** | **confluent.apiKey** |API key for Confluent Cloud, can be created via cli by following the docs |[Confluent API key docs](https://docs.confluent.io/cloud/current/monitoring/metrics-api.html)|
